@@ -2,7 +2,7 @@
 This project generates truly unpredictable random numbers using quantum superposition and measurement with Qiskit. Unlike classical pseudo-random methods, this QRNG leverages quantum states to ensure secure randomness suitable for cryptography, simulations, and secure key generation.
 # Quantum Random Number Generator (QRNG) – Hackathon 2025
 
-## 🔍 Overview
+Overview
 
 This project is my submission for the Qiskit Hackathon 2025.  
 It implements a simple **Quantum Random Number Generator (QRNG)** using Qiskit, based on the idea of preparing qubits in superposition and using measurement to obtain truly random outcomes.
@@ -11,7 +11,7 @@ Classical random number generators are pseudo-random, because they are based on 
 
 ---
 
-## 🎯 Goal
+Goal
 
 - Create a quantum circuit that generates random numbers.
 - Decide the number of qubits and corresponding possible outcomes.
@@ -21,7 +21,7 @@ Classical random number generators are pseudo-random, because they are based on 
 
 ---
 
-## 🧠 Method
+##  Method
 
 1. **Circuit preparation**
    - Start with `n` qubits initialized in \|0⟩.
@@ -42,7 +42,7 @@ Classical random number generators are pseudo-random, because they are based on 
 
 ---
 
-## ▶️ Usage Example
+##  Usage Example
 
 ```python
 from qrng.runner import run_qrng
